@@ -14,7 +14,7 @@ $(function () {
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
   //
-  for (var i=9;i<18;i++){
+  for (var i=9;i<24;i++){
     var temp = $('#hour-'+i);
     temp.find('button').click(function(){
       localStorage.setItem(this.parentNode.id, $(this).prev().val());
